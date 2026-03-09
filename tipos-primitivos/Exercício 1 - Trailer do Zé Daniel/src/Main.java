@@ -6,7 +6,7 @@ public class Main {
         int terceiraHora = 2;
 
         int soma = primeiraHora + segundaHora + terceiraHora;
-        double media = soma / horas;
+        double media = (double) soma / horas;
 
         System.out.println("Total: " + soma);
         System.out.println("Média: " + media);
